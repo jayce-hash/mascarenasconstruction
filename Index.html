@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascarenas Construction | Concrete Services in Salida, CO</title>
+    <style>
+        /* CSS Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2c3e50;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+
+        .contact-top {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1541888086425-d81bb19240f5?auto=format&fit=crop&w=1500&q=80') center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        #hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #f1c40f;
+            color: #2c3e50;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e6b700;
+        }
+
+        /* Generic Section Styles */
+        section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: #2c3e50;
+            text-transform: uppercase;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Services Grid */
+        #services {
+            background-color: #ecf0f1;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-bottom: 4px solid #f1c40f;
+        }
+
+        .service-card h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        /* Reviews Section */
+        #reviews {
+            background-color: #fff;
+        }
+
+        .review-box {
+            background: #f8f9fa;
+            border-left: 5px solid #f1c40f;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .stars {
+            color: #f1c40f;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .review-text {
+            font-style: italic;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .reviewer-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        /* Info & Hours Section */
+        #info {
+            background-color: #2c3e50;
+            color: white;
+            padding: 60px 0;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .info-box h3 {
+            color: #f1c40f;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .info-box p {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .hours-table {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .hours-table td {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .hours-table td:nth-child(2) {
+            text-align: right;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a252f;
+            color: #bdc3c7;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media(max-width: 768px) {
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .contact-top {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mascarenas Construction</h1>
+            <div class="contact-top">
+                Call Us: (719) 221-1808
+            </div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Your Trusted Source for Concrete Services</h2>
+            <p>From residential driveways to commercial retaining walls, we deliver top-notch masonry and concrete solutions tailored to your specific needs.</p>
+            <a href="tel:7192211808" class="btn">Get a Free Estimate</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Our Business</h2>
+            <p>Mascarenas Construction is your trusted source for top-notch concrete services. With years of experience, we take pride in delivering exceptional concrete solutions tailored to your specific needs. Whether you require residential or commercial concrete services, we are committed to excellence in every pour and brick we lay.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Concrete Contracting</h3>
+                    <p>High-quality residential and commercial concrete pouring and finishing.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Masonry</h3>
+                    <p>Expert masonry work ensuring durable and level structures.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Retaining Walls</h3>
+                    <p>Structural retaining walls designed for stability and aesthetic appeal.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Concrete Driveways</h3>
+                    <p>Beautiful, long-lasting concrete driveways and flatwork.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="review-box">
+                <div class="stars">★★★★★ 5.0</div>
+                <p class="review-text">"Ray Mascarenas is the owner. Nice, professional, and does quality work. I had him put in a greenhouse foundation wall, and it is perfect! Level and square all the way around and across."</p>
+                <p class="reviewer-name">— Jo M. (Salida, CO)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-box">
+                    <h3>Location & Contact</h3>
+                    <p><strong>Address:</strong><br>
+                    7125 Co Rd 109, Ste 9<br>
+                    Salida, CO 81201</p>
+                    <br>
+                    <p><strong>Phone:</strong><br>
+                    <a style="color: #f1c40f;" href="tel:7192211808">(719) 221-1808</a></p>
+                    <br>
+                    <p><em>* We accept credit cards</em></p>
+                </div>
+                
+                <div class="info-box">
+                    <h3>Business Hours</h3>
+                    <table class="hours-table">
+                        <tr><td>Monday</td><td>7:00 AM - 5:00 PM</td></tr>
+                        <tr><td>Tuesday</td><td>7:00 AM - 5:00 PM</td></tr>
+                        <tr><td>Wednesday</td><td>7:00 AM - 5:00 PM</td></tr>
+                        <tr><td>Thursday</td><td>7:00 AM - 5:00 PM</td></tr>
+                        <tr><td>Friday</td><td>7:00 AM - 5:00 PM</td></tr>
+                        <tr><td>Saturday</td><td>7:00 AM - 5:00 PM</td></tr>
+                        <tr><td>Sunday</td><td>Closed</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mascarenas Construction. All Rights Reserved. | Masonry & Concrete Services in Salida, CO</p>
+        </div>
+    </footer>
+
+</body>
+</html>
